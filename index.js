@@ -1,4 +1,8 @@
 // console.log('Hello From Node.js ....');
 
-const person = require('./person');
-console.log(person);
+
+const Person = require('./person');
+
+const person1 =new Person('Saeid Madi', 24);
+
+person1.greating();
